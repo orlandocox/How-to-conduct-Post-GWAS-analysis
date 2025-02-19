@@ -1,0 +1,39 @@
+# 3. Variant Annotation
+
+Once high-quality variants have been filtered, the next step in post-GWAS analysis is **variant annotation**. This process provides **biological context** to SNPs by determining their location, functional impact, and potential role in disease.
+
+Variant annotation is crucial for **prioritizing SNPs for further analysis**, helping researchers differentiate between **associative** and **causative** variants.
+
+---
+
+### **3.1 What is Variant Annotation?**
+**Variant annotation** is the process of assigning **biological meaning** to genetic variants by integrating them with **functional, regulatory, and disease-related data**.  
+
+It helps answer key questions:
+- **Where is the SNP located?** (coding region, intron, promoter, enhancer, etc.)
+- **Does the SNP alter protein structure or function?**
+- **Is the SNP associated with a known disease or trait?**
+- **How common is the SNP in the population?** (Minor Allele Frequency, MAF)
+
+#### **Types of Variant Annotations**
+| **Annotation Type** | **Description** | **Example** |
+|---------------------|----------------|-------------|
+| **Genomic Location** | Determines if the SNP is in a **coding, non-coding, or regulatory region**. | Exonic, intronic, UTR, intergenic |
+| **Functional Impact** | Predicts how the SNP affects **gene expression or protein function**. | Missense, nonsense, synonymous |
+| **Regulatory Potential** | Assesses if the SNP affects **promoters, enhancers, or splicing sites**. | eQTLs, TF binding sites |
+| **Disease Association** | Links SNPs to known **disease-related genes**. | GWAS Catalog, ClinVar |
+| **Conservation Score** | Measures evolutionary conservation to infer functional importance. | PhyloP, GERP++ |
+
+---
+
+### **3.2 Tools for Variant Annotation**
+Several bioinformatics tools integrate **public databases** to annotate SNPs with functional and regulatory data. Below are some commonly used tools:
+
+#### **1. ANNOVAR (Annotation of Genetic Variants)**
+- One of the most widely used tools for **variant annotation and filtering**.
+- Can assign **gene-based, region-based, and filter-based annotations**.
+- Supports **multiple genome builds (hg19, hg38)**.
+
+**Example command:**
+```bash
+table_annovar.pl input.vcf humandb/ -buildver hg19 -out output -remove -protocol refGene,dbnsfp35a -operation g,f
