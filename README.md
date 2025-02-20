@@ -88,12 +88,6 @@ I strongly encourage **collaboration**—if you have additional insights, code, 
 
 ---
 
-### References
-- Include a list of tools and resources mentioned, such as ANNOVAR, Enrichr, GWAS Catalog, etc.
-- Provide links to key tools and databases for user convenience.
-
----
-
 ### How to Use This Guide
 1. Follow the steps outlined in the workflow section.
 2. Refer to each topic header for detailed explanations and tool suggestions.
