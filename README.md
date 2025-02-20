@@ -1,7 +1,23 @@
-# GWAS-Study
-A useful guide of what GWAS is and code that is explained and can be utilised to help fellow users
+# GWAS-Study  
 
-Welcome, I have recently completed a Post-GWAS analysis of GWAS data studying Force Vital Capacity, I found throughout my studies there to be a vast chasm of knowledge lacking in the public information and suggestions towards how to conduct GWAS, especially towards the novices and inexperienced. This document and the associated coding will act as a template for anyone to use, be it directly or as a form of inspiration. In this document, I have provided code and attempted to explain why I used each line and the function it is attempting to complete. While the code acts as a guide, it must be stated that each GWAS study is different, be it in what is being tested, the sample or the outcome the researcher wishes to accomplish. I should also state that I wish this guide to be collaborative, and encourage anyone to add any information, code or guides within the project, aiming to make Bioinformatics more accessible and helpful to all. As I'm sure we all know, the largest limiting factor of GWAS studies is the sample size, and making it more accessible is a key and grassroots solution to the limitation.
+## A Comprehensive Guide to GWAS and Post-GWAS Analysis  
+
+Welcome!  
+
+I recently completed a **Post-GWAS analysis** on **Forced Vital Capacity (FVC)** and found a significant gap in publicly available resources—especially for **novices and those new to bioinformatics**. This guide aims to bridge that gap by providing:  
+
+- A **step-by-step breakdown** of GWAS and post-GWAS analysis.  
+- **Annotated code snippets** to help users implement their own analyses.  
+- **Explanations of key concepts and methodologies** to ensure clarity.  
+
+This document serves as both a **template and an inspiration** for researchers, allowing them to adapt the code to their specific GWAS studies. While I provide detailed explanations, it’s important to remember that **each GWAS study is unique**, varying in:  
+- **Phenotype being studied**  
+- **Sample size and population**  
+- **Desired outcomes**  
+
+### **A Collaborative Effort**  
+I strongly encourage **collaboration**—if you have additional insights, code, or guidance, please contribute! Making **bioinformatics more accessible** is a key step in overcoming **one of the biggest challenges in GWAS: sample size limitations**. By **sharing knowledge and resources**, we can help make GWAS studies stronger and more powerful.
+
 
 # Post-GWAS Analysis: A Step-by-Step Guide for Novices
 
@@ -83,4 +99,8 @@ Welcome, I have recently completed a Post-GWAS analysis of GWAS data studying Fo
 2. Refer to each topic header for detailed explanations and tool suggestions.
 3. Use the tools and resources provided to enhance your post-GWAS analysis workflow.
 
+---
+## AI and referencing statement
+I would like readers to be aware that I utilised AI to help me write this resource, I find the layout of Git Hub to be exhaustively complex, and have therefore used Git Hub to help me format the resource so it is more readable and digestible. Think tables and bullet points. However that being said I therefore would like to warn readers about referencing any material here, and if so, to do so at their own risk.
 
+Thank you for reading, and please collaborate!!
